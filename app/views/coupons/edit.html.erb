@@ -1,0 +1,10 @@
+<h1>Editing Coupon</h1>
+
+<%= form_tag coupon_path(coupon) %>
+  #<%= text_field_tag :coupon_code, @coupon.coupon_code %>
+  #<%= text_field_tag :store, @coupon.store %>
+<%= submit_tag "Edit Coupon" %>
+
+
+<%= link_to 'Show', @coupon %> |
+<%= link_to 'Back', coupons_path %>
